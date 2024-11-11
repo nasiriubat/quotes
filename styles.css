@@ -69,8 +69,7 @@ video {
 
 /* New subscribe message line */
 .subscribe-message {
-    position: absolute;
-    bottom: 20%;
+    margin-top: 5rem;
     background-color: red;
     color: white;
     padding: 10px 20px;
@@ -106,6 +105,9 @@ video {
 }
 
 @media (max-width: 600px) {
+    .text-overlay {
+        top: 20%;
+    }
 
     .did-you-know {
         font-size: 2em;
